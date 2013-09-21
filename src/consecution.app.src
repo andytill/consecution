@@ -1,0 +1,12 @@
+{application, consecution,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { consecution_app, []}},
+  {env, []}
+ ]}.
